@@ -1,5 +1,5 @@
 FROM node:21-alpine3.18
-FROM npm@latest
+FROM npm:10
 
 RUN npm install
 
