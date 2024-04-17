@@ -1,10 +1,10 @@
 import React from "react";
-import {Button} from "@/components/ui/button";
+import Page from "@/app/button/page";
 
 export default function Home() {
   return (
     <div className={'p-1'}>
-      <Button>Hello</Button>
+      <Page/>
     </div>
   )
 }
